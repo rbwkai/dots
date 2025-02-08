@@ -8,7 +8,7 @@
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
-alias build='g++ code.cpp -o box/code.out; box/code.out <txt/in.txt'
+alias build='./build.sh'
 alias intr='g++ code.cpp -o box/code.out; box/code.out'
 alias outf='g++ code.cpp -o box/code.out; box/code.out <txt/in.txt >txt/out.txt'
 alias stress='./stress.sh'
@@ -18,5 +18,8 @@ alias rsrun='rustc code.rs; ./code'
 
 alias set='nvim -S ./session.nv'
 alias get='cat code.cpp| clip.exe'
+
 PS1='[\u@\h \W]\$ '
 . "$HOME/.cargo/env"
+
+pokemon-colorscripts -r
