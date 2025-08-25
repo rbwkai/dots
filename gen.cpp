@@ -1,4 +1,3 @@
-
 //#pragma GCC optimize("Ofast,unroll-loops")
 //#pragma GCC target("avx2,popcnt,lzcnt,abm,bmi,bmi2,fma,tune=native")
  
@@ -27,33 +26,32 @@ ll const inf = 1e18; //0x3f3f3f3f3f3f;
 ll const mod = 1e9+7; //998244353;
 
 int random(int l, int r) {
-    static std::mt19937 generator
-    (static_cast<unsigned long>
-           (chrono::high_resolution_clock::
-            now()
-            .time_since_epoch()
-            .count()
-    ));
-    uniform_int_distribution<int> distribution(l, r);
-    return distribution(generator);
+    static mt19937 generator(
+        (unsigned)chrono::high_resolution_clock::now()
+          .time_since_epoch().count()
+    );
+    uniform_int_distribution<int> dist(l, r);
+    return dist(generator);
 }
 
 void gen(){
-  ll n=4, q=4;
-  cout<<n<<" "<<q<<en;
+  ll n = 8, m = 6, q = 1; 
+  cout<<n<<" "<<m<<" "<<q<<en;
+  fir(n) cout<<random(1, 20)<<ln;
+  fir(m) cout<<random(1, 20)<<" "; cout<<en;
 
-  fir(n) cout<<random(1, 5)<<ln;
-
-  while(q--){
-    ll t=random(1, 2), l=random(1, n), r=random(l, n);
-    cout<<t<<" "<<l<<" "<<r<<en;
-  }
+  ll x = random(1, n);
+  ll y = random(1, m);
+  ll p = random(1, x+y);
+  cout<<x<<" "<<y<<" "<<p<<en;
 }
 
 int main(){
-  ll tc=1;
-  cout<<tc<<en;
-  fir(tc){
-    gen();
-  }
+    ll tc = 1;
+    cout << tc << en;  // uncomment if you want multiple testcases
+    fir(tc){
+        gen();
+    }
+    return 0;
 }
+
