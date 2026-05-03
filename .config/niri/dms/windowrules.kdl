@@ -1,0 +1,26 @@
+// DMS Window Rules - Managed by DankMaterialShell
+// Do not edit manually - changes may be overwritten
+
+// @id=wr_1776682849945005734 @name=kitty
+window-rule {
+    match app-id="^kitty$"
+    open-maximized true
+}
+
+// @id=wr_1776694076740794030 @name=code
+window-rule {
+    match app-id="^code$"
+    open-maximized true
+}
+
+// @id=wr_1776746446485531446 @name=zen
+window-rule {
+    match app-id="^zen$"
+    open-maximized true
+}
+
+// @id=wr_1776772830932754291 @name=obsidian
+window-rule {
+    match app-id="^obsidian$"
+    open-maximized true
+}
