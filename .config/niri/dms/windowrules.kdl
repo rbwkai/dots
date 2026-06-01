@@ -24,3 +24,21 @@ window-rule {
     match app-id="^obsidian$"
     open-maximized true
 }
+
+// @id=wr_1778317400606606871 @name=ghidra-Ghidra
+window-rule {
+    match app-id="^ghidra-Ghidra$"
+    open-maximized true
+}
+
+// @id=wr_1778761806655250340 @name=Postman
+window-rule {
+    match app-id="^Postman$"
+    open-maximized true
+}
+
+// @id=wr_1780084502281858643 @name=jetbrains-idea
+window-rule {
+    match app-id="^jetbrains-idea$"
+    open-maximized true
+}

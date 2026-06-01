@@ -20,7 +20,10 @@ alias record='gpu-screen-recorder -w screen -f 60 -a default_output -o ~/Videos/
 
 PS1='[\u@\h \W]\$ '
 
-export ATAC_KEY_BINDINGS="$HOME/.config/atac/vim_key_bindings.toml"
+# uv
+export PATH="/home/kai/.local/bin:$PATH"
 
 fastfetch
 eval "$(starship init bash)"
+eval "$(zoxide init bash --cmd cd)"
+

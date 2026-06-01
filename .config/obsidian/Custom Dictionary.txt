@@ -1,9 +1,24 @@
 Alhamdulillah
+Deen
+Dhikr
+Dua
+MSB
 Multiset
+Sabr
+Salah
 akhirah
+basecase
 centroid
 int64
+jannah
 lexicographically
 pbuh
+subarray
+subarrays
+subproblem
+subsequence
+subtree
+subtrees
 unrooted
-checksum_v1 = c2771067c82a48c9888e208f1d155a10
+zA
+checksum_v1 = 92c6f75253a4f7af9d2a6b12269d5584
