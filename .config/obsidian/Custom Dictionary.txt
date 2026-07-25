@@ -1,11 +1,18 @@
 Alhamdulillah
+Allahu
+DFS
+DSU
 Deen
 Dhikr
 Dua
+Journaling
 MSB
 Multiset
 Sabr
 Salah
+SubhanAllah
+TLE
+Wudu
 akhirah
 basecase
 centroid
@@ -13,12 +20,16 @@ int64
 jannah
 lexicographically
 pbuh
+precompute
 subarray
 subarrays
 subproblem
+subseq
 subsequence
 subtree
 subtrees
 unrooted
+warner
+warners
 zA
-checksum_v1 = 92c6f75253a4f7af9d2a6b12269d5584
+checksum_v1 = 14359f2e72df037d4542de39f9016bbb

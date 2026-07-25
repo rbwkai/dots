@@ -63,7 +63,7 @@ binds {
     Mod+C { center-column; }
     Mod+Ctrl+C { center-visible-columns; }
     Mod+Ctrl+End { move-column-to-last; }
-    Mod+Ctrl+F { expand-column-to-available-width; }
+    Mod+Ctrl+F { spawn "~/.local/bin/toggle_binaural.sh"; } //Mod+Ctrl+F { expand-column-to-available-width; }
     Mod+Ctrl+H { focus-monitor-left; }
     Mod+Ctrl+Home { move-column-to-first; }
     Mod+Ctrl+J { focus-monitor-down; }
@@ -128,6 +128,7 @@ binds {
     Super+B hotkey-overlay-title="Open Browser" { spawn "zen-browser"; }
     Super+I hotkey-overlay-title="Open File Manager" { spawn "kitty" "yazi"; }
     Super+O hotkey-overlay-title="Open Obsidian" { spawn "obsidian"; }
+    Super+P hotkey-overlay-title="Open Private Youtube" { spawn "firefox" "--private-window" "https://youtube.com"; }
     Super+Shift+B hotkey-overlay-title="Open Trash Browser" { spawn "firefox"; }
     Mod+D repeat=false { toggle-overview; }
     Mod+Escape allow-inhibiting=false { toggle-keyboard-shortcuts-inhibit; }

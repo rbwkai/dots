@@ -1,3 +1,3 @@
-2026/05/31-20:35:23.085 342f Reusing MANIFEST /home/kai/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
-2026/05/31-20:35:23.086 342f Recovering log #280
-2026/05/31-20:35:23.189 342f Reusing old log /home/kai/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000280.log 
+2026/07/26-01:33:16.575 dfd3 Reusing MANIFEST /home/kai/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2026/07/26-01:33:16.576 dfd3 Recovering log #1069
+2026/07/26-01:33:16.659 dfd3 Reusing old log /home/kai/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/001069.log 

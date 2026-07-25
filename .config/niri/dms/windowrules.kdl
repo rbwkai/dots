@@ -42,3 +42,9 @@ window-rule {
     match app-id="^jetbrains-idea$"
     open-maximized true
 }
+
+// @id=wr_1781946789905779369 @name=^firefox$
+window-rule {
+    match app-id="^firefox$"
+    open-maximized true
+}
