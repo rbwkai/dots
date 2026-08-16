@@ -48,3 +48,21 @@ window-rule {
     match app-id="^firefox$"
     open-maximized true
 }
+
+// @id=wr_1785700908269145078 @name=antigravity-ide
+window-rule {
+    match app-id="^antigravity-ide$"
+    open-maximized true
+}
+
+// @id=wr_1786176127268259712 @name=VirtualBox Manager
+window-rule {
+    match app-id="^VirtualBox Manager$"
+    open-maximized true
+}
+
+// @id=wr_1786178375662338816 @name=VirtualBox Machine
+window-rule {
+    match app-id="^VirtualBox Machine$"
+    open-maximized true
+}

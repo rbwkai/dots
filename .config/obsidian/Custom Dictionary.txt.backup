@@ -5,6 +5,7 @@ DSU
 Deen
 Dhikr
 Dua
+Journaling
 MSB
 Multiset
 Sabr
@@ -15,6 +16,7 @@ Wudu
 akhirah
 basecase
 centroid
+deque
 int64
 jannah
 lexicographically
@@ -31,4 +33,4 @@ unrooted
 warner
 warners
 zA
-checksum_v1 = 04d390089c1fed991528d571d428bb2d
+checksum_v1 = e5b9d30dd72ddeeb65dba90ca368aecb

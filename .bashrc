@@ -23,7 +23,9 @@ PS1='[\u@\h \W]\$ '
 # uv
 export PATH="/home/kai/.local/bin:$PATH"
 
-fastfetch
+xlog quote
+xlog prompt
 eval "$(starship init bash)"
 eval "$(zoxide init bash --cmd cd)"
 
+. "$HOME/.cargo/env"
